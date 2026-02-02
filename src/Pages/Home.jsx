@@ -2,6 +2,9 @@ import React from 'react'
 import jobImg from '../Assets/jobs.jpg'
 import { useState } from 'react'; // Add useState
 import { useNavigate } from 'react-router-dom'; // Add useNavigate
+import Categories from './Categories';
+import FeatureJob from './FeatureJob';
+import Process from './Process';
 
 const Home = () => {
 
@@ -88,6 +91,14 @@ const Home = () => {
       </div>
 
       <img src={jobImg} alt="" width={2100} />
+
+      <Categories />
+      <FeatureJob />
+      <br />
+      <Process />
+
+
+
 
     </>
 

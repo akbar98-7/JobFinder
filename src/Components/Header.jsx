@@ -13,7 +13,6 @@ const Header = () => {
                     <img src={joblogoImg} alt="" width={200} />
                 </Navbar.Brand>
 
-
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
 

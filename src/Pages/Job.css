@@ -1,0 +1,16 @@
+.job {
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #e8e8e8 !important;
+}
+
+.job:hover {
+    transform: translateY(-10px);
+    /* Lifts the card up */
+    border-color: transparent !important;
+    /* Hide border on hover */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08) !important;
+    /* The soft shadow */
+
+}

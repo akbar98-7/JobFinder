@@ -237,46 +237,46 @@ function App() {
   return (
 
     <>
-    <Router>
+      <Router>
 
-      <Header />
+        <Header />
 
-      <Routes>
+        <Routes>
 
-        <Route path="/" element={<Home />} />
-        <Route path="/jobs" element={<Jobs />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/job/:id" element={<JobDetails />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/jobs" element={<Jobs />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/job/:id" element={<JobDetails />} />
 
-      </Routes>
+        </Routes>
 
-    </Router>
+      </Router>
 
-    <footer className="bg-dark text-light py-4 mt-auto border-top border-secondary">
-          <div className="container">
-            <div className="row align-items-center">
-              {/* Brand/Copyright Section */}
-              <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                <h5 className="mb-1 text-uppercase fw-bold" style={{ letterSpacing: '1px' }}>
-                  Job Finder
-                </h5>
-                <p className="small text-secondary mb-0">
-                  &copy; 2026 Dream Job. All rights reserved.
-                </p>
-              </div>
+      <footer className="bg-dark text-light py-4 mt-auto border-top border-secondary">
+        <div className="container">
+          <div className="row align-items-center">
+            {/* Brand/Copyright Section */}
+            <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              <h5 className="mb-1 text-uppercase fw-bold" style={{ letterSpacing: '1px' }}>
+                Job Finder
+              </h5>
+              <p className="small text-secondary mb-0">
+                &copy; 2026 Dream Job. All rights reserved.
+              </p>
+            </div>
 
-              
-              <div className="col-md-6 text-center text-md-end">
-                <a href="https://x.com/akbarmirza5" className="text-secondary text-decoration-none mx-2 large text-white">Twitter</a>
-                <a href="https://github.com/akbar98-7/PizzaReact" className="text-secondary text-decoration-none mx-2 large text-white">GitHub</a>
-                <a href="https://www.linkedin.com/in/mohammad-akber-mirza-613b7b9a/" className="text-secondary text-decoration-none mx-2 large text-white">LinkedIn</a>
-              </div>
+
+            <div className="col-md-6 text-center text-md-end">
+              <a href="https://x.com/akbarmirza5" className="text-secondary text-decoration-none mx-2 large text-white">Twitter</a>
+              <a href="https://github.com/akbar98-7/PizzaReact" className="text-secondary text-decoration-none mx-2 large text-white">GitHub</a>
+              <a href="https://www.linkedin.com/in/mohammad-akber-mirza-613b7b9a/" className="text-secondary text-decoration-none mx-2 large text-white">LinkedIn</a>
             </div>
           </div>
+        </div>
 
 
-          <style>{`
+        <style>{`
         .hover-light:hover {
           color: #fff !important;
           transition: 0.3s;
@@ -285,11 +285,10 @@ function App() {
           background: linear-gradient(180deg, #212529 0%, #1a1d20 100%);
         }
       `}</style>
-        </footer>
+      </footer>
 
 
-
-</>
+    </>
 
   );
 }

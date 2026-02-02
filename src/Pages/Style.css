@@ -1,0 +1,28 @@
+.category-card {
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid #e8e8e8 !important;
+  text-align: center;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+  /* Lifts the card up */
+  border-color: transparent !important;
+  /* Hide border on hover */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08) !important;
+  /* The soft shadow */
+}
+
+/* Change Title and Subtitle color on Hover */
+.category-card:hover .card-title,
+.category-card:hover .card-text {
+  color: #ff1e6d !important;
+}
+
+/* If you use the SVG, this will turn it pink on hover too */
+.category-card:hover svg {
+  fill: #ff1e6d !important;
+  stroke: #ff1e6d !important;
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
+import './Job.css'
 
 const Jobs = () => {
 
@@ -37,7 +38,7 @@ const Jobs = () => {
 
       return matchesSearch && matchesLocation && matchesNature;
     });
-    setFilteredJobs(tempJobs);
+    setFilteredJobs(tempJobs.slice(0, 10));
   }, [search, location, nature, jobs]);
 
 
@@ -78,13 +79,13 @@ const Jobs = () => {
         </div>
 
         {/* JOB LISTINGS */}
-        <div className="col-md-9">
+        <div className=" col-md-9">
           <div className="d-flex justify-content-between align-items-center mb-4">
             <h4 className="fw-bold">{filteredJobs.length} Jobs Found</h4>
           </div>
 
           {filteredJobs.map(job => (
-            <div key={job.job_id} className="card mb-3 p-3 shadow-sm border-0 job-card">
+            <div key={job.job_id} className=" job card mb-3 p-3 shadow-sm border-0 job-card">
               <div className="d-flex align-items-center justify-content-between">
                 <div className="d-flex align-items-center">
                   <div className="me-3" style={{ width: '80px', height: '80px' }}>

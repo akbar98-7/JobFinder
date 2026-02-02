@@ -9,7 +9,7 @@ const JobDetails = () => {
 
   useEffect(() => {
     // 1. Get data from localStorage
-    const allJobs = JSON.parse(localStorage.getItem('jobs')) || []; 
+    const allJobs = JSON.parse(localStorage.getItem('jobs')) || [];
 
     // 2. Find the specific job by ID
     const selectedJob = allJobs.find(item => item.job_id === id);
