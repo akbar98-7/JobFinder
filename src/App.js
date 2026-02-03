@@ -295,7 +295,7 @@ function App() {
               </h5>
               <ul className="list-unstyled mt-3">
 
-                <li className="hover-light fs-5">View Project</li>
+                <li className=" fs-5" style={{ lineHeight: '1.6', cursor: 'pointer', hover: { color: "#ff1e6d" } }}>View Project</li>
                 <li className="hover-light mt-2 fs-5">Contact Us</li>
                 <li className="hover-light mt-2 fs-5">Testimonials</li>
                 <li className="hover-light mt-2 fs-5">Properties</li>

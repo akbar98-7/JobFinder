@@ -18,7 +18,6 @@ const JobDetails = () => {
 
   if (!job) return <div className="container mt-5">Loading job details...</div>;
 
-
   return (
     <div className="container mt-5 pt-5">
       <div className="row">

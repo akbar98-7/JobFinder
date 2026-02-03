@@ -9,7 +9,7 @@ import Process from './Process';
 const Home = () => {
 
   const navigate = useNavigate();
-                                                                                                                                                                                                                                                                                                                                                                                                                
+
   // States to capture what the user types
   const [keyword, setKeyword] = useState("");
   const [location, setLocation] = useState("");
@@ -34,7 +34,7 @@ const Home = () => {
         >
           <h1 className="display-1 fw-bold">Find The</h1>
           <span className='display-1 fw-bold'>Most Exciting</span>
-          <br></br>                                                                                                                                                                     
+          <br></br>
           <span className='display-1 fw-bold'>Startup Jobs</span>
 
           <br></br>

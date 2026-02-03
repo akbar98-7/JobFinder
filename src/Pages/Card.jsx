@@ -4,7 +4,7 @@ import './Style.css'
 const Card = ({ item }) => {
     return (
         <div className="category-card p-4 mb-4 text-center border rounded ">
-            {/* Icon Wrapper: Limits the size of your large PNGs */}
+          
             <div className="icon-wrapper mb-4">
                 <img
                     src={item?.img}
