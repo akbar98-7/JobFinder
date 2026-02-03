@@ -255,23 +255,82 @@ function App() {
 
       <footer className="bg-dark text-light py-4 mt-auto border-top border-secondary">
         <div className="container">
-          <div className="row align-items-center">
+          <div className="row ">
             {/* Brand/Copyright Section */}
-            <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-              <h5 className="mb-1 text-uppercase fw-bold" style={{ letterSpacing: '1px' }}>
-                Job Finder
+            <div className="col-md-3  text-start mb-4- mb-md-0">
+              <h5 className="mb-3 text-uppercase fw-bold" style={{ letterSpacing: '1px' }}>
+                About Us
               </h5>
-              <p className="small text-secondary mb-0">
-                &copy; 2026 Dream Job. All rights reserved.
+              <p className="large text-white mb-0">
+                Heaven frucvitful doesn't cover lesser dvsays appear creeping seasons so behold.
               </p>
             </div>
 
 
-            <div className="col-md-6 text-center text-md-end">
-              <a href="https://x.com/akbarmirza5" className="text-secondary text-decoration-none mx-2 large text-white">Twitter</a>
-              <a href="https://github.com/akbar98-7/PizzaReact" className="text-secondary text-decoration-none mx-2 large text-white">GitHub</a>
-              <a href="https://www.linkedin.com/in/mohammad-akber-mirza-613b7b9a/" className="text-secondary text-decoration-none mx-2 large text-white">LinkedIn</a>
+            <div className="col-md-3  text-start">
+              <h5 className="mb-3 text-uppercase fw-bold" style={{ letterSpacing: '1px' }}>
+                Contact Info
+              </h5>
+              <p className="large text-white mb-2">
+                ADDRESS: Your address goes here,
+                <br />
+                <span className="fw-bold">your demo address. </span>
+              </p>
+
+              <br></br>
+
+              <p className="large text-white mb-0">
+                <span className="fw-bold">Phone:</span> +012 345 6789
+              </p>
+              <br></br>
+
+              <p className="large text-white mb-0">
+                <span className="fw-bold">Email:</span> <a href="mailto:your_email_address">your_email_address</a>
+              </p>
             </div>
+
+            <div className="col-md-3 text-center text-md-start mb-3 mb-md-0">
+              <h5 className="mb-1 text-uppercase fw-bold" style={{ letterSpacing: '1px' }}>
+                Important Link
+              </h5>
+              <ul className="list-unstyled mt-3">
+
+                <li className="hover-light fs-5">View Project</li>
+                <li className="hover-light mt-2 fs-5">Contact Us</li>
+                <li className="hover-light mt-2 fs-5">Testimonials</li>
+                <li className="hover-light mt-2 fs-5">Properties</li>
+                <li className="hover-light mt-2 fs-5">Support</li>
+
+              </ul>
+            </div>
+
+            <div className="col-md-3  text-start">
+              <h5 className="mb-3 text-uppercase fw-bold" style={{ letterSpacing: '1px' }}>
+                Newsletter
+              </h5>
+              <p className="large text-white mb-0 fs-5">
+                Heaven frucvitful doesn't cover lesser dvsays appear creeping seasons so behold.
+              </p>
+
+              <div className="input-group mt-4">
+                <input type="text" className="form-control" placeholder="Email Address" />
+                <button className="btn btn-light" style={{ backgroundColor: "#ff1e6d" }}>Subscribe</button>
+              </div>
+
+            </div>
+
+            <hr className="my-4"></hr>
+
+            <div className="row">
+              <div className="col-md-6 text-center text-md-start">
+                <p className="mb-0 fs-5">
+                  &copy; Copyright ©2026 All rights reserved | This web is made with love by "Akber Mirza"
+                </p>
+              </div>
+            </div>
+
+
+
           </div>
         </div>
 
